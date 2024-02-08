@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration-line: none;
+    color: #000;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.container .is {
+    display: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+nav a {
+    padding-top: 25px;
+    padding-right: 10px;
+    margin-right: 50px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.space {
+    height: 15vh;
+}
+
+#work {
+    color: #FF6464 !important;
+}
+
+.Featured_works {
+    width: 70%;
+    margin: auto;
+    height: 90vh;
+}
+
+.Featured_works h1 {
+    color: #21243D;
+    margin: 20px;
+    opacity: .9;
+    font-weight: 400;
+}
+
+.box_Featured_1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_1 .img-designing {
+    width: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../uploads/designing.png);
+    height: 200px;
+}
+
+.box_Featured_1 .text_designing {
+    margin: 20px;
+}
+
+.box_Featured_1 .text_designing h1 {
+    font-weight: bold;
+    color: black;
+}
+
+.box_Featured_1 .Dashboard {
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_1 .Dashboard .year {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin: 10px 20px 10px 0px;
+}
+
+.Dashboard p {
+    color: #21243D;
+    opacity: .8;
+}
+
+.font {
+    margin-left: 10px;
+    width: 70%;
+    height: 1px;
+    background-color: #E0E0E0;
+    opacity: 0.8;
+}
+
+.font2 {
+    margin-left: 10px;
+    width: 70%;
+    height: 1px;
+    background-color: #E0E0E0;
+    opacity: 0.8;
+}
+
+.font3 {
+    margin-left: 10px;
+    width: 70%;
+    height: 1px;
+    background-color: #E0E0E0;
+    opacity: 0.8;
+}
+
+.box_Featured_2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_2 .img-designing {
+    width: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../uploads/Rectangle\ 32.png);
+    height: 200px;
+}
+
+.box_Featured_2 .text_designing {
+    margin: 20px;
+}
+
+.box_Featured_2 .text_designing h1 {
+    font-weight: bolder;
+    color: black;
+}
+
+.box_Featured_2 .Dashboard {
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_2 .Dashboard .year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin: 10px 20px 10px 0px;
+}
+
+.Dashboard p {
+    color: #21243D;
+    opacity: .8;
+}
+
+.box_Featured_3 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_3 .img-designing {
+    width: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../uploads/Rectangle\ 34.png);
+    height: 200px;
+}
+
+.box_Featured_3 .text_designing {
+    margin: 20px;
+}
+
+.box_Featured_3 .text_designing h1 {
+    font-weight: bolder;
+    color: black;
+}
+
+.box_Featured_3 .Dashboard {
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_3 .Dashboard .year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin: 10px 20px 10px 0px;
+}
+
+.Dashboard p {
+    color: #21243D;
+    opacity: .8;
+}
+
+.box_Featured_4 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.icons_communication {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons_communication a {
+    text-decoration-line: none;
+}
+
+.copy {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    opacity: .7;
+}
+
+svg {
+    padding: 20px;
+}
+
+@media (min-width:373px) and (max-width:850px) {
+    nav {
+        position: fixed;
+        top: 20px;
+        background-color: #21243D;
+        width: 75%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        border-radius: 4px;
+        display: none;
+    }
+    .cont {
+        width: 90%;
+        height: 160vh;
+        overflow: hidden;
+    }
+    .container .is {
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
+    .space {
+        width: 0;
+        height: 0;
+    }
+    .Featured_works {
+        width: 90%;
+        margin: auto;
+    }
+    br {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .Featured_works h1 {
+        color: #21243D;
+        margin-left: 40px;
+        opacity: 1;
+        font-weight: 400;
+    }
+    .box_Featured_1 {
+        display: grid;
+        width: 95%;
+        margin: auto;
+    }
+    .box_Featured_1 .img-designing {
+        width: 100%;
+        margin: auto;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../uploads/designing.png);
+        height: 350px
+    }
+    .box_Featured_1 .text_designing h1 {
+        font-weight: bolder;
+        color: black;
+        text-align: center;
+        width: 100%;
+        ;
+    }
+    .box_Featured_1 .Dashboard {
+        display: flex;
+        align-items: center;
+    }
+    .box_Featured_1 .Dashboard .year {
+        width: 50px;
+        text-align: center;
+        font-weight: bold;
+        height: 25px;
+        border-radius: 50px;
+        background-color: black;
+        color: white;
+        margin-right: 20px;
+        margin: 10px 20px 10px 0px;
+    }
+    .Dashboard p {
+        color: #21243D;
+        opacity: .8;
+    }
+    .p_designing p .br1 {
+        display: none;
+    }
+    .font {
+        margin-left: 10px;
+        width: 100%;
+        height: 1px;
+        background-color: #E0E0E0;
+        opacity: 0.8;
+        margin: 51px;
+    }
+    .font2 {
+        visibility: hidden;
+    }
+    .font3 {
+        visibility: hidden;
+    }
+    .box_Featured_2 {
+        width: 0;
+        height: 0;
+        display: none;
+        visibility: hidden;
+        visibility: hidden;
+    }
+    .box_Featured_3 {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+    .box_Featured_4 {
+        visibility: visible;
+        display: grid;
+        width: 95%;
+        margin: auto;
+        height: 60vh;
+    }
+    .box_Featured_4 .img-designing {
+        width: 100%;
+        margin: auto;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../uploads/Screenshot\ 2024-02-03\ 031440.png);
+        height: 350px
+    }
+    .box_Featured_4 .text_designing h2 {
+        font-weight: bolder;
+        color: black;
+        ;
+        margin-top: 30px;
+    }
+    .box_Featured_4 .Dashboard {
+        display: flex;
+        align-items: center;
+    }
+    .box_Featured_4 .Dashboard .year {
+        width: 50px;
+        text-align: center;
+        font-weight: bold;
+        height: 25px;
+        border-radius: 50px;
+        background-color: black;
+        color: white;
+        margin-right: 20px;
+        margin: 10px 20px 10px 0px;
+    }
+    .Dashboard p {
+        color: #21243D;
+        opacity: .8;
+    }
+    .p_designing p .br1 {
+        display: none;
+    }
+    .font {
+        margin-left: 10px;
+        width: 70%;
+        margin: auto;
+        height: 1px;
+        background-color: #E0E0E0;
+        opacity: 0.8;
+    }
+    .p_designing p {
+        width: 100%;
+    }
+    .p_designing p .br1 {
+        display: none;
+    }
+    .icons_communication {
+        margin: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons_communication a {
+        text-decoration-line: none;
+    }
+    .copy {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        opacity: .7;
+    }
+    svg {
+        padding: 20px;
+    }
+}
+
+.Primary {
+    color: #FF6464;
+}

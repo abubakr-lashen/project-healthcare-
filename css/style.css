@@ -1,0 +1,396 @@
+/* 
+color
+ Primary=#FF6464 button
+#EDF7FA
+Secondry=#00A8CC View all
+#21243D =Featured works
+ 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    text-transform: capitalize;
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 85%;
+    margin: auto;
+}
+
+#index {
+    color: #FF6464 !important;
+}
+
+a {
+    background-color: #00404e00;
+    text-decoration-line: none;
+    color: rgb(0, 0, 0) !important;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.container .is {
+    display: none;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+nav a {
+    padding-top: 25px;
+    padding-right: 10px;
+    margin-right: 50px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.space {
+    height: 15vh;
+}
+
+.space2 {
+    height: 10vh;
+}
+
+.who_me {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    direction: rtl;
+}
+
+.photo_me .img {
+    text-align: center;
+    background-image: url(../uploads/photo_me.png);
+    background-size: contain;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.text_me {
+    direction: ltr;
+}
+
+.text_me h1 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.text_me p {
+    color: #21243D;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.btn_Download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    width: 220px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #FF6464;
+    cursor: pointer;
+}
+
+.container3 {
+    width: 100%;
+    background-color: #EDF7FA;
+    height: 43vh;
+}
+
+.Recent_posts {
+    width: 72%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Recent_posts .h1 {
+    margin: 20px;
+    margin-left: 35px;
+    width: 50%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #21243D;
+}
+
+.Recent_posts .View_all {
+    color: #00A8CC;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.Recent_box {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
+    border-radius: 4px;
+    width: 550px;
+    height: 280px;
+    background-color: white;
+}
+
+.two {
+    margin-left: 30px;
+    border-radius: 4px;
+    width: 550px;
+    height: 280px;
+    background-color: white;
+}
+
+.Recent_box .cont {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+}
+
+.Recent_box .cont h1 {
+    font-weight: bold;
+}
+
+.Recent_box .cont .date {
+    opacity: .8;
+    color: #21243D;
+    font-size: 10px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.Recent_box .cont .date p {
+    margin: 0px 20px 0px 20px;
+    color: #21243D;
+    width: 2px;
+    height: 20px;
+    background-color: black;
+}
+
+.Recent_box .cont .p {
+    color: #21243D;
+    width: 350px;
+    margin: 10px 0px;
+}
+
+.Featured_works {
+    width: 70%;
+    margin: auto;
+    height: 90vh;
+}
+
+.Featured_works h1 {
+    color: #21243D;
+    margin: 20px;
+    opacity: .9;
+    font-weight: 400;
+}
+
+.box_Featured_1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_1 .img-designing {
+    width: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../uploads/designing.png);
+    height: 200px;
+}
+
+.box_Featured_1 .text_designing {
+    margin: 20px;
+}
+
+.box_Featured_1 .text_designing h1 {
+    font-weight: bolder;
+    color: black;
+}
+
+.box_Featured_1 .Dashboard {
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_1 .Dashboard .year {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin: 10px 20px 10px 0px;
+}
+
+.Dashboard p {
+    color: #21243D;
+    opacity: .8;
+}
+
+.font {
+    margin-left: 10px;
+    width: 70%;
+    height: 1px;
+    background-color: #E0E0E0;
+    opacity: 0.8;
+}
+
+.font2 {
+    margin-left: 10px;
+    width: 70%;
+    height: 1px;
+    background-color: #E0E0E0;
+    opacity: 0.8;
+}
+
+.font3 {
+    margin-left: 10px;
+    width: 70%;
+    height: 1px;
+    background-color: #E0E0E0;
+    opacity: 0.8;
+}
+
+.box_Featured_2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_2 .img-designing {
+    width: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../uploads/Rectangle\ 32.png);
+    height: 200px;
+}
+
+.box_Featured_2 .text_designing {
+    margin: 20px;
+}
+
+.box_Featured_2 .text_designing h1 {
+    font-weight: bolder;
+    color: black;
+}
+
+.box_Featured_2 .Dashboard {
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_2 .Dashboard .year {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin: 10px 20px 10px 0px;
+}
+
+.Dashboard p {
+    color: #21243D;
+    opacity: .8;
+}
+
+.box_Featured_3 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_3 .img-designing {
+    width: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../uploads/Rectangle\ 34.png);
+    height: 200px;
+}
+
+.box_Featured_3 .text_designing {
+    margin: 20px;
+}
+
+.box_Featured_3 .text_designing h1 {
+    font-weight: bolder;
+    color: black;
+}
+
+.box_Featured_3 .Dashboard {
+    display: flex;
+    align-items: center;
+}
+
+.box_Featured_3 .Dashboard .year {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin: 10px 20px 10px 0px;
+}
+
+.Dashboard p {
+    color: #21243D;
+    opacity: .8;
+}
+
+.icons_communication {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons_communication a {
+    text-decoration-line: none;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    opacity: .7;
+}
+
+svg {
+    margin-left: 20px;
+}
