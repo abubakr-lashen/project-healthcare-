@@ -9,6 +9,8 @@
 a {
     text-decoration-line: none;
     color: #000;
+}html{
+    scroll-behavior: smooth;
 }
 
 .container {
